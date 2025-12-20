@@ -57,3 +57,7 @@ def search():
        recipes.append(recipe)
 
     return render_template('index.html', recipes=recipes)
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
