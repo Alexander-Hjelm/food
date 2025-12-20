@@ -1,6 +1,7 @@
 import sqlite3
 import markdown
 from flask import Flask, render_template, request, flash, redirect, url_for
+from markdown.extensions.tables import TableExtension
 
 def get_db_connection():
     conn = sqlite3.connect('database.db')
@@ -19,7 +20,7 @@ def index():
     recipes = []
     for recipe_key in db_recipes:
        recipe = dict(recipe_key)
-       recipe['content'] = markdown.markdown(recipe['content'])
+       recipe['content'] = markdown.markdown(recipe['content'], extensions=[TableExtension(use_align_attribute=True)])
        recipes.append(recipe)
 
     return render_template('index.html', recipes=recipes)
