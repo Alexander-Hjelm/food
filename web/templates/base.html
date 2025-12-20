@@ -23,6 +23,10 @@
             </li>
             </ul>
         </div>
+        <form class="example" action="search">
+            <input type="text" placeholder="Search.." name="query">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
     </nav>
     <div class="container">
         {% for message in get_flashed_messages() %}

@@ -41,3 +41,20 @@ def recipe(page: str):
        recipes.append(recipe)
 
     return render_template('index.html', recipes=recipes)
+
+@app.route('/search')
+def search():
+    print("LOL")
+    query = request.args.get('query')
+    print(query)
+    conn = get_db_connection()
+    db_recipes = conn.execute(f'SELECT id, created, content, recipe_id FROM recipes WHERE content LIKE "%{query}%"  --case-insensitive;').fetchall()
+    conn.close()
+
+    recipes = []
+    for recipe_key in db_recipes:
+       recipe = dict(recipe_key)
+       recipe['content'] = markdown.markdown(recipe['content'], extensions=[TableExtension(use_align_attribute=True)])
+       recipes.append(recipe)
+
+    return render_template('index.html', recipes=recipes)
