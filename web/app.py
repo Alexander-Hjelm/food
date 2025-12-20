@@ -44,9 +44,8 @@ def recipe(page: str):
 
 @app.route('/search')
 def search():
-    print("LOL")
     query = request.args.get('query')
-    print(query)
+
     conn = get_db_connection()
     db_recipes = conn.execute(f'SELECT id, created, content, recipe_id FROM recipes WHERE content LIKE "%{query}%"  --case-insensitive;').fetchall()
     conn.close()
