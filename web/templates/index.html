@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Welcome to FlaskNotes {% endblock %}</h1>
+    {% for recipe in recipes %}
+    <div class="card">
+        <div class="card-body">
+            <span class="badge badge-primary">#{{ recipe['id'] }}</span>
+            <span class="badge badge-default">{{ recipe['created'] }}</span>
+            <hr>
+            <p>{{ recipe['content'] |safe }}</p>
+        </div>
+    </div>
+    <hr>
+    {% endfor %}
+{% endblock %}
