@@ -1,16 +1,17 @@
+import os
 import sqlite3
 
 connection = sqlite3.connect('database.db')
-
 
 with open('schema.sql') as f:
     connection.executescript(f.read())
 
 cur = connection.cursor()
 
-cur.execute("INSERT INTO recipes (content) VALUES (?)", ('# The First Note',))
-cur.execute("INSERT INTO recipes (content) VALUES (?)", ('_Another note_',))
-cur.execute("INSERT INTO recipes (content) VALUES (?)", ('Visit [this page](https://www.digitalocean.com/community/tutorials) for more tutorials.',))
+for filename in os.listdir(os.getcwd() + "\\..\\recipes"):
+    with open(os.path.join(os.getcwd(), "..", "recipes", filename), 'r', encoding='utf-8') as f: # open in readonly mode
+        content = f.read()
+        cur.execute("INSERT INTO recipes (content) VALUES (?)", (content,))
 
 connection.commit()
 connection.close()
