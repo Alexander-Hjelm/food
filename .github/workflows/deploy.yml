@@ -1,0 +1,19 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, linux]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          cd web
+          pip install -r requirements.txt
+      - name: Copy flaskapp onto system and run
+        run: |
+          cp -r web ~/food
+          cd ~/food
+          ./run.sh &
