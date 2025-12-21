@@ -4,5 +4,6 @@ CREATE TABLE recipes (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     content TEXT NOT NULL,
-    recipe_id TEXT NOT NULL
+    recipe_id TEXT NOT NULL,
+    content_searchable TEXT NOT NULL
 );

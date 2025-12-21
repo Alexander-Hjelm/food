@@ -47,8 +47,10 @@ def search():
     query = request.args.get('query')
 
     conn = get_db_connection()
-    db_recipes = conn.execute(f'SELECT id, created, content, recipe_id FROM recipes WHERE content LIKE "%{query}%"  --case-insensitive;').fetchall()
+    db_recipes = conn.execute(f'SELECT id, created, content, recipe_id, content_searchable FROM recipes WHERE content_searchable LIKE "%{query}%"  --case-insensitive;').fetchall()
     conn.close()
+
+
 
     recipes = []
     for recipe_key in db_recipes:
