@@ -1,4 +1,4 @@
-# Lasagne
+# Lasagna
 
 > ?
 
@@ -26,7 +26,7 @@
 | Wheat flour           | 150 g         |                 |          |
 | Milk                  | 1500 ml       |                 |          |
 | Grated cheese         | 150 g         |                 |          |
-| Lasagne sheets        | as needed     |                 |          |
+| Lasagna sheets        | as needed     |                 |          |
 
 ## Instructions
 
@@ -41,7 +41,7 @@
 9. Gradually whisk in the milk while heating, stirring constantly to avoid lumps.
 10. Continue cooking until the sauce thickens, then season with salt and black pepper.
 11. Stir in the grated cheese until melted and smooth.
-12. Assemble the lasagne in an oven dish by layering meat sauce, white sauce, and lasagne sheets.
+12. Assemble the lasagna in an oven dish by layering meat sauce, white sauce, and lasagna sheets.
 13. Finish with a layer of white sauce on top.
 14. Bake in the oven for about 40 minutes until golden and bubbling.
-15. Let the lasagne rest for 10 minutes before serving so it holds together nicely.
+15. Let the lasagna rest for 10 minutes before serving so it holds together nicely.
