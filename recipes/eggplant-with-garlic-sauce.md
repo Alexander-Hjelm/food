@@ -1,6 +1,6 @@
 # Eggplant with Garlic Sauce
 
-> ?
+> You hear me talking, hillbilly boy?! I ain't through with you by a damn sight! Imma get medieval on yo' ass!
 
 ## Tags
 
