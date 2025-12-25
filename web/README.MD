@@ -7,9 +7,9 @@
 ```sh
 cd /home/pi/
 git clone https://github.com/Alexander-Hjelm/food
-touch +x /home/pi/food/web/run.sh
+touch /home/pi/food/web/run.sh
 sudo chmod +x /home/pi/food/web/run.sh
-touch +x /home/pi/food/web/update.sh
+touch /home/pi/food/web/update.sh
 sudo chmod +x /home/pi/food/web/update.sh
 ```
 
