@@ -20,7 +20,7 @@ def index():
     recipes = []
     for recipe_key in db_recipes:
        recipe = dict(recipe_key)
-       recipe['content'] = markdown.markdown(recipe['content'], extensions=[TableExtension(use_align_attribute=True)])
+       recipe['content'] = markdown.markdown(recipe['content'], extensions=[TableExtension()])
        recipes.append(recipe)
 
     return render_template('index.html', recipes=recipes)
@@ -37,7 +37,7 @@ def recipe(page: str):
     recipes = []
     for recipe_key in db_recipes:
        recipe = dict(recipe_key)
-       recipe['content'] = markdown.markdown(recipe['content'], extensions=[TableExtension(use_align_attribute=True)])
+       recipe['content'] = markdown.markdown(recipe['content'], extensions=[TableExtension()])
        recipes.append(recipe)
 
     return render_template('index.html', recipes=recipes)
@@ -67,7 +67,7 @@ def search():
     recipes = []
     for recipe_key in db_recipes:
        recipe = dict(recipe_key)
-       recipe['content'] = markdown.markdown(recipe['content'], extensions=[TableExtension(use_align_attribute=True)])
+       recipe['content'] = markdown.markdown(recipe['content'], extensions=[TableExtension()])
        recipes.append(recipe)
 
     return render_template('index.html', recipes=recipes)
