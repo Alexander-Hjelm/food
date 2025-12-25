@@ -11,6 +11,8 @@ touch /home/pi/food/web/run.sh
 sudo chmod +x /home/pi/food/web/run.sh
 touch /home/pi/food/web/update.sh
 sudo chmod +x /home/pi/food/web/update.sh
+
+pip3 install Flask==1.1.4 Markdown==3.2.2
 ```
 
 ### 2. create executables
