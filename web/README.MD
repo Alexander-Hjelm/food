@@ -7,8 +7,34 @@
 ```sh
 cd /home/pi/
 git clone https://github.com/Alexander-Hjelm/food
+touch +x /home/pi/food/web/run.sh
 sudo chmod +x /home/pi/food/web/run.sh
+touch +x /home/pi/food/web/update.sh
 sudo chmod +x /home/pi/food/web/update.sh
+```
+
+### 2. create executables
+
+#### /home/pi/food/web/run.sh
+
+```sh
+#!/usr/bin/env bash
+
+export FLASK_APP="app"
+export FLASK_ENV="development"
+
+python3 init_db.py
+flask run --host=0.0.0.0
+```
+
+#### /home/pi/food/web/update.sh
+
+```sh
+#!/usr/bin/env bash
+
+systemctl stop food-app
+git pull
+systemctl start food-app
 ```
 
 ### 2. systemd service files
@@ -41,10 +67,10 @@ After=multi-user.target
 User=root
 Type=simple
 WorkingDirectory=/home/pi/food/web
-ExecStart=/bin/bash /home/pi/food/web/update.sh
+ExecStart=/home/pi/food/web/update.sh
 
 Restart=always
-RestartSec=60
+RestartSec=86400
 
 [Install]
 WantedBy=multi-user.target
