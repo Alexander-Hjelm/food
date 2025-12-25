@@ -1,6 +1,6 @@
 # Cookies with condensed milk
 
-> 
+> I don't get why the milk has to be condensed, why can't we just inject the gaseous milk immediately instead?
 
 ## Tags
 
