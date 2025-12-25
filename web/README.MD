@@ -11,6 +11,10 @@ touch /home/pi/food/web/run.sh
 sudo chmod +x /home/pi/food/web/run.sh
 touch /home/pi/food/web/update.sh
 sudo chmod +x /home/pi/food/web/update.sh
+<<<<<<< HEAD
+=======
+
+>>>>>>> 418ae4d1a23b3d0d4a29b9f2b440b2af9b351fee
 pip3 install Flask==1.1.4 Markdown==3.2.2
 ```
 
