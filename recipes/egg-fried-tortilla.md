@@ -1,6 +1,6 @@
 # Egg Fried Tortilla
 
-> ?
+> Where the fuck did Monday go, I'll go to this pig and pug show.
 
 ## Tags
 
