@@ -28,7 +28,7 @@ def index():
 @app.route('/recipes/<page>')
 def recipe(page: str):
     conn = get_db_connection()
-    db_recipes = conn.execute(f'SELECT id, created, content, recipe_id FROM recipes WHERE recipe_id="{page}";').fetchall()
+    db_recipes = conn.execute('SELECT id, created, content, recipe_id FROM recipes WHERE recipe_id="{}";'.format(page)).fetchall()
     conn.close()
 
     if len(db_recipes) == 0:
@@ -46,15 +46,15 @@ def recipe(page: str):
 def search():
     query = request.args.get('query')
     query_split = query.split(",")
-    sql_query = f'SELECT id, created, content, recipe_id, content_searchable FROM recipes'
+    sql_query = 'SELECT id, created, content, recipe_id, content_searchable FROM recipes'
 
     if len(query_split) > 0:
         query_part = query_split[0]
-        sql_query += f' WHERE content_searchable LIKE "%{query_part}%"'
+        sql_query += ' WHERE content_searchable LIKE "%{}%"'.format(query_part)
 
     if len(query_split) > 1:
         for query_part in query_split[1:]:
-            sql_query += f' AND content_searchable LIKE "%{query_part}%" --case-insensitive'
+            sql_query += ' AND content_searchable LIKE "%{}%" --case-insensitive'.format(query_part)
 
     sql_query += ";"
 
