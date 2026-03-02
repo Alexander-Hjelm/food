@@ -13,7 +13,7 @@
 | Sourdoug starter | 100g        |          |          |
 | Water            | 100g        |          |          |
 | Flour (White)    | 250g        |          |          |
-| Salt             | 10g         |          |          |
+| Salt             | 5g          |          |          |
 
 ## Instructions
 
