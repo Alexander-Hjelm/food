@@ -1,6 +1,6 @@
 # Sponge Cake Base
 
-> Light, fluffy, and perfect for when you want your cake to feel like a cloud.
+> I don't remember what this is for, but it's not my go-to cake base recipe.
 
 ## Tags
 
