@@ -10,7 +10,7 @@
 
 | Ingredient    | Amount      | Prep     | Optional |
 | ------------- | ----------- | -------- | -------- |
-| Pasta         | 100g per person |          |          |
+| Pasta         | 125g per person |          |          |
 | Bacon         | 50-100g per person | chopped |          |
 | Garlic        | 1 clove per person | minced |          |
 | Eggs          | 1 per person |          |          |
