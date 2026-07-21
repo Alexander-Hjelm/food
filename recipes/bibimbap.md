@@ -1,6 +1,6 @@
 # Bibimbap
 
-> ?
+> Laugh and the world laughs with you. Weep and you weep alone.
 
 ## Tags
 
