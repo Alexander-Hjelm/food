@@ -1,4 +1,4 @@
-# Eggplant with Garlic Sauce
+# Crossing the Bridge Noodles (过桥米线)
 
 > Jesus crossed a bridge made of noodles in a watermelon car and escaped from satan. It's true, I saw it on YouTube!
 
@@ -8,22 +8,22 @@
 
 ## Ingredients
 
-| Ingredient                | Amount      | Prep                          | Optional |
-| ------------------------- | ----------- | ----------------------------- | -------- |
-| Rice Noodles              | 250 g       |                               |          |
-| Chicken stock             | 1.5 l       |                               |          |
-| Chinkiang vinegar         | 0.5 tsp     |                               |          |
-| Light soy sauce           | 15 ml       |                               |          |
-| White pepper              | a pinch     |                               |          |
-| Salt                      | a pinch     |
-| Aromatic spice / Kucharek | a pinch     |
-| Ginger                    | 2 tsp       | Minced                        |          |
-| Garlic                    | 2 tbsp ~ 6 cloves | Minced (divided)       |          |
-| Soy mince                 | 150 g       |                               |          |
-| Chili oil                 | 5–10        | Deseeded, sliced              | Optional |
-| Tree ear mushrooms        | 10-20       | Soaked in hot water           | Optional |
-| Spring onions             | 2           | Chopped                       | Optional |
-| Coriander                 |            | Chopped              | Optional |
+| Ingredient                | Amount  | Prep                | Optional |
+| ------------------------- | ------- | ------------------- | -------- |
+| Rice Noodles              | 250 g   |                     |          |
+| Chicken stock             | 1.5 l   |                     |          |
+| Chinkiang vinegar         | 0.5 tsp |                     |          |
+| Light soy sauce           | 15 ml   |                     |          |
+| White pepper              | a pinch |                     |          |
+| Salt                      | a pinch |                     |          |
+| Aromatic spice / Kucharek | a pinch |                     |          |
+| Ginger                    | 2 tsp   | Minced              |          |
+| Garlic                    | 1 clove | Minced              |          |
+| Soy mince                 | 150 g   |                     |          |
+| Chili oil                 | 5–10    | Deseeded, sliced    | Optional |
+| Tree ear mushrooms        | 10-20   | Soaked in hot water | Optional |
+| Spring onions             | 2       | Chopped             | Optional |
+| Coriander                 |         | Chopped             | Optional |
 
 ## Instructions
 
