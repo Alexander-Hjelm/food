@@ -14,8 +14,9 @@
 | -------------------------------- | --------- | ----------| -------- |
 | Neutral oil                      | 1 tbsp    |           |          |
 | Garlic                           | 4 cloves  | minced    |          |
-| Ginger                           | 1 tbsp    | minced    |          |
-| Sichuan peppercorns              | 1 tsp     | crushed   |          |
+| Ginger                           | 0.5 tbsp  | minced    |          |
+| Sichuan peppercorns              | 1 tsp     |           |          |
+| Red chili flakes                 | 1 tbsp    |           |          |
 | Ground beef / Sausage / Soy meat | 200 g     |           |          |
 | Fermented bean paste             | 1.5 tbsp  |           |          |
 | Toasted chili oil/sauce          | 1 tbsp    |           |          |
@@ -31,15 +32,15 @@
 | Oyster sauce                     | 1/2 tbsp  |           |          |
 | Soy sauce                        | 2 tbsp    |           |          |
 | Sesame oil                       | 0.5 tsp   |           |          |
-| Corn starch                      | 1 tbsp    |           |          |
+| Corn starch                      | 1.5 tbsp  |           |          |
 | Sugar                            | 1 tsp     |           |          |
 
 ## Instructions
 
 1. Mix together the mapu tofu sauce ingredients in a glass
-1. Sauté garlic, ginger for 30s
+1. Sauté garlic, ginger, sichan pepper and red chili flakes for 30s
 1. Add the meat and fry according to the choice of meat
-1. Add Sichuan pepper, Bean paste and Chili oil and fry for another 30s
+1. Add Bean paste and Chili oil and fry for another 30s
 1. Add tofu and simmer for a few minutes
 1. Add the mapu tofu sauce and simmer for a few minutes
 1. Top with spring onions and coriander (if desired)
