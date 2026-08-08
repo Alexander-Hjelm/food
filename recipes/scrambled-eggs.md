@@ -8,13 +8,13 @@
 
 ## Ingredients
 
-| Ingredient            | Amount      | Prep     | Optional |
-| --------------------- | ----------- | -------- | -------- |
-| Eggs                  | 4           |          |          |
-| Salt                  |             |          |          |
-| Black pepper          |             |          |          |
-| Butter                | 1.5 tbsp    |          |          |
-| Full fat cream / milk | 25 ml       |          |          |
+| Ingredient            | Amount                   | Prep     | Optional |
+| --------------------- | ------------------------ | -------- | -------- |
+| Eggs                  | 4                        |          |          |
+| Salt                  |                          |          |          |
+| Black pepper          |                          |          |          |
+| Butter                | 1.5 tbsp                 |          |          |
+| Full fat cream / milk | 25 ml cream or 1 dl milk |          |          |
 
 ## Instructions
 
