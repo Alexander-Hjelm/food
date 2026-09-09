@@ -47,4 +47,4 @@
 5. Roll the sheet up into a roll while pressing firmly. The resulting roll should be very tight.
 6. Put moisture on the empty nori edge, then seal the roll.
 7. With a freshly sharpened knife, cut the roll into pieces while discarding the edges. Repeat with each nori sheet.
-8. Serve with soy sauce, wasabi and gari
+8. Serve with soy sauce, wasabi, gari and sesame seeds
