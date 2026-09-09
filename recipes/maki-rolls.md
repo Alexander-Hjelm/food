@@ -9,7 +9,7 @@
 
 ## Ingredients
 
-### Main + condiment suggestions
+### Main
 
 | Ingredient            | Amount   | Prep                 | Optional |
 | --------------------- | -------- | -------------------- | -------- |
