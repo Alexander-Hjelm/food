@@ -4,7 +4,7 @@
 
 ## Tags
 
-- asian, main course, cold, salad
+- asian, japanese, main course, cold, salad
 
 ## Ingredients
 
@@ -12,7 +12,7 @@
 
 | Ingredient               | Amount     | Prep                              | Optional |
 | ------------------------ | ---------- | --------------------------------- | -------- |
-| Soba noodlse             | 2          | chopped                           |          |
+| Soba noodles             | 2          | chopped                           |          |
 | Cucumber                 | 1/2        | sliced thinly, salted and drained |          |
 | Edamame beans            | 1 dl       |                                   |          |
 | Shrimps (frozen)         | 15         | warmed up, peeled                 |          |
