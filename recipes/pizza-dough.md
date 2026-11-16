@@ -10,12 +10,11 @@
 
 | Ingredient      | Amount       | Prep     | Optional |
 | --------------- | ----------- | -------- | -------- |
-| Water           | 2.5 dl      |          |          |
+| Water           | 2 dl        |          |          |
 | Yeast           | 25 g        |          |          |
 | Olive oil       | 2 tbsp      |          |          |
 | Salt            | To taste    |          |          |
-| Wheat flour     | 6.5 dl      |          |          |
-| Wheat gluten    | 1 dl        |          |          |
+| Wheat flour     | 7 dl        |          |          |
 | Sugar           | 2 tsp       |          |          |
 
 ## Instructions
